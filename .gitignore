@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Benchmark output
+benchmark-results/*.jsonl
+benchmark-results/*.log
+benchmark-results/*.txt
+benchmark-results/*.prom
+!benchmark-results/.gitkeep
+
+# Local environment
+.env
+
+# OS/editor files
+.DS_Store
+*.swp
