@@ -1,0 +1,6 @@
+{"prompt_id":"short_explain","prompt":"Explain GPU inference in one short paragraph."}
+{"prompt_id":"long_explain","prompt":"Explain how an LLM inference request moves through an inference server, from receiving the HTTP request to returning generated tokens."}
+{"prompt_id":"debugging","prompt":"A vLLM server running in Docker cannot access the AMD GPU. Explain the likely causes and debugging steps."}
+{"prompt_id":"summarization","prompt":"Summarize this in three bullet points: vLLM is an inference server for large language models. It supports OpenAI-compatible APIs, batching, KV-cache management, and efficient serving. On AMD GPUs, it can run through ROCm-compatible containers when the host exposes the required GPU devices."}
+{"prompt_id":"code_explain","prompt":"Explain what this Bash command does: docker run --device=/dev/kfd --device=/dev/dri --group-add video -p 8002:8000 vllm/vllm-openai-rocm:latest"}
+{"prompt_id":"step_by_step","prompt":"Explain step by step how to verify that an AMD GPU is visible inside a Docker container."}
